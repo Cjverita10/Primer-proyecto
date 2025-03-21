@@ -1,20 +1,20 @@
 <?php
 	echo "Quiz la proxima clase";
 	
-	$putas= array("sandia","fresa","manzana");
+	$frutas= array("sandia","fresa","manzana");
 	
-	$putas[]="arandanos";
+	$frutas[]="arandanos";
 	
-	print_r($putas); 
+	print_r($frutas); 
 	
-	$putaeliminar ="fresa";
+	$frutaseliminar ="fresa";
 	
-	$llave= array_search($putaeliminar,$putas);
+	$llave= array_search($frutasaeliminar,$frutas);
 	
 	if($llave!==false){
 	  
-	  unset($putas[$llave]);
+	  unset($frutas[$llave]);
 	  
 	}
-	print_r($putas);
+	print_r($frutas);
 ?>
